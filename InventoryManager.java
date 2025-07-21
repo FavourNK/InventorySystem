@@ -1,7 +1,21 @@
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class InventoryManager {
+    private ArrayList<Item> inventory;
+
+    public InventoryManager() {
+        inventory = new ArrayList<>();
+    }
+
+    public void addItem(Item item) {
+        inventory.add(item);
+    }
+
+    // (Optional: Add viewItems() and removeItem() methods later)
+
+
     private ArrayList<Item> itemList = new ArrayList<>();
     private Scanner scanner = new Scanner(System.in);
 
@@ -11,7 +25,7 @@ public class InventoryManager {
         System.out.print("Enter item name: ");
         String name = scanner.nextLine();
         System.out.print("Enter quantity: ");
-        int qty = scanner.nextInt();git --version
+        int qty = scanner.nextInt();
 
         System.out.print("Enter price: ");
         double price = scanner.nextDouble();

@@ -1,0 +1,2 @@
+admin,1234,admin
+favour,pass123,staff
