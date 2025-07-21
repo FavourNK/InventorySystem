@@ -1,31 +1,83 @@
-# InventorySystem
+# 🧾 Java Inventory Management System (GUI + Login)
 
-A simple inventory management system written in Java.  
-This project allows users to manage a list of items with features like adding, updating, and displaying inventory items.
+This is a simple inventory management system built with Java Swing. It allows users to **add**, **update**, **delete**, **search**, **save**, and **load** inventory items with a GUI. It also supports **login-based access control** (Admin and User roles).
 
-## 📂 Features
+---
 
-- Add new items to the inventory
-- Update item quantity
-- View the list of items
+## ✨ Features
 
-## 📁 Files
+- 🧍‍♂️ Login-based access (Admin/User)
+- 🛒 Add, update, delete, and view items
+- 🔍 Search items by ID or name
+- 💾 Save and load inventory from file
+- 💰 Calculate total value of stock
+- 🎨 Clean GUI with black and white theme
 
-- `Item.java` – Represents an individual inventory item.
-- `InventoryManager.java` – Manages a list of items and operations on them.
-- `Main.java` – Runs the inventory system and handles user interaction.
+---
 
-## 🔧 Requirements
+## 💻 Technologies Used
 
-- Java JDK (Version 8 or higher)
-- A terminal or code editor (e.g., VS Code)
+- Java
+- Java Swing (GUI)
+- File handling
 
-## ▶️ How to Run
+---
 
-1. Compile all Java files:
+## 📂 File Structure
 
-2. Run the program:
+- `InventoryGUI.java` - Main GUI logic  
+- `LoginGUI.java` - Login interface  
+- `LoginInventorySystem.java` - Entry point  
+- `Item.java` - Inventory item class  
+- `FileHelper.java` - Load/save file logic  
+- `users.txt` - Stores login credentials  
+- `inventory.txt` - Stores inventory data
 
-##  Author
+---
 
-Nkasiobi Favour
+## 🔑 Default Logins
+
+admin,password
+user,1234
+
+
+You can modify these in `users.txt`.
+
+---
+
+## 📸 Screenshots
+
+*(Optional: Add screenshots of your app here)*
+
+---
+
+## 🚀 How to Run
+
+1. Open in VS Code or any IDE  
+2. Compile all files:
+javac *.java
+
+markdown
+Copy
+Edit
+3. Run the system:
+java LoginInventorySystem
+
+
+---
+
+## 🛠️ Author
+
+👨‍💻 Developed by **Nkasiobi Favour**
+
+---
+
+## 📎 Fiverr Gig (Coming Soon...)
+
+👉 This project is available as a Fiverr gig where you can request a custom version for your business or shop.
+
+---
+
+## 📜 License
+
+MIT License – Feel free to use and modify this project!
