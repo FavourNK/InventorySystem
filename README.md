@@ -1,83 +1,52 @@
-# 🧾 Java Inventory Management System (GUI + Login)
+# 🛒 Java Inventory Management System (GUI Version)
 
-This is a simple inventory management system built with Java Swing. It allows users to **add**, **update**, **delete**, **search**, **save**, and **load** inventory items with a GUI. It also supports **login-based access control** (Admin and User roles).
-
----
-
-## ✨ Features
-
-- 🧍‍♂️ Login-based access (Admin/User)
-- 🛒 Add, update, delete, and view items
-- 🔍 Search items by ID or name
-- 💾 Save and load inventory from file
-- 💰 Calculate total value of stock
-- 🎨 Clean GUI with black and white theme
+This is a complete inventory management system built using **Java Swing GUI**. It supports adding, updating, deleting, saving, loading, and searching for items. It also includes a **role-based login system** to distinguish between *admin* and *staff* users.
 
 ---
 
-## 💻 Technologies Used
+## ✅ Features
 
-- Java
-- Java Swing (GUI)
-- File handling
-
----
-
-## 📂 File Structure
-
-- `InventoryGUI.java` - Main GUI logic  
-- `LoginGUI.java` - Login interface  
-- `LoginInventorySystem.java` - Entry point  
-- `Item.java` - Inventory item class  
-- `FileHelper.java` - Load/save file logic  
-- `users.txt` - Stores login credentials  
-- `inventory.txt` - Stores inventory data
+- 🔐 **Login System** – Supports "admin" and "staff" roles using a `users.txt` file.
+- ➕ **Add Items** – Enter item ID, name, quantity, and price.
+- 🖋️ **Update Items** – Modify item details by ID.
+- ❌ **Delete Items** – Remove items with confirmation.
+- 🔍 **Search Items** – Search by item ID or name.
+- 💰 **Total Value Calculator** – Displays the full worth of the inventory.
+- 💾 **Save/Load to File** – Persists inventory to `inventory.txt`.
+- 🎨 **Styled GUI** – Includes custom colors, fonts, emojis, and tooltips.
 
 ---
 
-## 🔑 Default Logins
+## 📦 Files in the Project
 
-admin,password
-user,1234
-
-
-You can modify these in `users.txt`.
-
----
-
-## 📸 Screenshots
-
-*(Optional: Add screenshots of your app here)*
+- `InventoryGUI.java` – Main GUI for inventory management
+- `LoginGUI.java` – Login window with role-based access
+- `LoginInventorySystem.java` – App launcher
+- `Item.java` – Item model class
+- `FileHelper.java` – File reading/writing support
+- `users.txt` – Contains sample login credentials
+- `inventory.txt` – Inventory data storage
+- `run_gui.bat` – Double-click to run the app
 
 ---
 
-## 🚀 How to Run
+## 🧪 How to Run This App
 
-1. Open in VS Code or any IDE  
-2. Compile all files:
+### Method 1: Using Command Prompt or VS Code Terminal
+
+```bash
 javac *.java
-
-markdown
-Copy
-Edit
-3. Run the system:
 java LoginInventorySystem
 
 
----
+👨‍💻 AUTHOR
+Nkasiobi Favour
+📧 Email: nkasiobifavour@gmail.com
+🔧 Java Developer | GUI Systems Designer | Fiverr Freelancer
 
-## 🛠️ Author
+🚀 Hire Me on Fiverr
+I build custom Java desktop apps just like this. Want one with extra features or connected to a database?
 
-👨‍💻 Developed by **Nkasiobi Favour**
+🎯 Check out my Fiverr Gig »
+( https://github.com/FavourNK/InventorySystem)
 
----
-
-## 📎 Fiverr Gig (Coming Soon...)
-
-👉 This project is available as a Fiverr gig where you can request a custom version for your business or shop.
-
----
-
-## 📜 License
-
-MIT License – Feel free to use and modify this project!
